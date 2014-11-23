@@ -1,4 +1,8 @@
-spfm
+Sistem Pengurusan Fail Meja
 ====
 
-Sistem Pengurusan Fail Meja Kakitangan Kerajaan
+SPFM dibangunkan bagi tujuan mengawal selia dan menguruskan Fail Meja kakitangan.
+
+## Motivation
+Masalah yg seringkali timbul setiap kali audit Penarafan Bintang oleh MAMPU.
+Mewujudkan satu repositori berpusat Fail Meja kakitangan untuk memudahkan pemantauan dan pengurusan.
