@@ -1,0 +1,115 @@
+body {
+	font-family : "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+.logo{
+	color:#fff;
+	margin: 5px 15px;
+	padding:0;
+	float: left;
+	line-height:26px;/*fixes IE7 bug, bottom of letters cut off*/
+}
+
+/* dermis */
+.editable_dept:hover {
+	background-image:url('../img/txtbg.jpg');	
+	cursor:hand;
+}
+
+.editable_select_json:hover {
+	background-image:url('../img/txtbg.jpg');	
+	cursor:hand;
+}
+
+.editable_post:hover {
+	background-image:url('../img/txtbg.jpg');	
+	cursor:hand;
+}
+
+.editable_nick:hover {
+	background-image:url('../img/txtbg.jpg');	
+	cursor:hand;
+}
+
+a:link {
+	color: #60BB22;/*EE3233*/
+	text-decoration: none;
+	font-weight:normal;
+}
+a:visited {
+	color: #60BB22;
+	text-decoration: none;
+	font-weight:normal;
+}
+a:hover {
+	color: #60BB22;
+	text-decoration:underline;
+	font-weight:normal;
+}
+a:active {
+	color: #60BB22;
+	font-weight:normal;
+}
+
+ul#login-user {
+	margin: 15px auto;
+	float: right;
+	line-height:26px;/*fixes IE7 bug, bottom of letters cut off*/
+}
+
+ul#login-user li {
+	float: left;
+	display: block;
+	margin-right: 1px;
+}
+
+/*fieldset*/
+fieldset {
+	padding:1.4em;
+	margin:0 0 1.5em 0;
+	border:0;
+	/*border:solid 1px #c6cfe1;
+	background:#dfe4ee;*/
+}
+fieldset ul, fieldset li{
+	border:0; margin:0; padding:0; list-style:none;
+}
+fieldset li{
+	clear:both;
+	list-style:none;
+	padding-bottom:5px;
+}
+
+fieldset input{
+	float:left;
+	font-size:12px;
+	padding:5px 2px;
+	border:solid 1px #aacfe4;
+	width:220px;
+	height:30px;
+	margin:0 0 20px 2px;
+}
+
+fieldset label{
+	width:200px;
+	font-size: 16px;
+	float:left;
+	#padding:2px 2px;
+	font-weight:normal;
+}
+fieldset button{
+	clear:both;
+	width:125px;
+	height:31px;
+	text-align:center;
+	line-height:31px;
+	font-weight:bold;
+}
+fieldset .small{
+	color:#666666;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left;
+	width:200px;
+}

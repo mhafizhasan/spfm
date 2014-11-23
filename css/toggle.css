@@ -1,0 +1,40 @@
+h2.trigger {
+	padding: 0 0 0 40px;
+	margin: 0 0 5px 0;
+	background: url(blue.png) no-repeat;
+	border-bottom: 1px dotted #d6d6d6;
+	height: 46px;
+	line-height: 46px;
+	/*width: 80%;*/
+	font-size: 15px;
+	font-weight: bold;
+	/*float: left;*/
+}
+
+h2.trigger a {
+	color: #000000;
+	text-decoration: none;
+	/*display: block;*/
+}
+h2.trigger a:hover { color: #cc3300; }
+h2.active {background-position: left bottom;} /*--When toggle is triggered, it will shift the image to the bottom to show its "opened" state--*/
+.toggle_container {
+	margin: 0 0 5px;
+	padding: 0;
+	/*border-top: 1px solid #d6d6d6;*/
+	/*background: #f0f0f0 url(toggle_block_stretch.gif) repeat-y left top;*/
+	background-color: #ccffff;
+	padding: 10px;
+	overflow: hidden;
+	font-size: 13px;
+	/*width: 80%;*/
+	clear: both;
+}
+.toggle_container .block {
+	padding: 20px; /*--Padding of Container--*/
+	/*background: url(toggle_block_btm.gif) no-repeat left bottom; /*--Bottom rounded corners--*/
+}
+h3.trigger-inner {
+	font-size: 13px;
+	font-weight: normal;
+}
